@@ -7,6 +7,7 @@ a{
     text-decoration: none;
     color:#928eb3;
 }
+button{outline:none;}
 /* sectop*/
 .sectop{
     display: flex;
@@ -246,6 +247,9 @@ a{
         transform:scale(0.84)
     }
 }
+/************************** sectop end ******************************************/
+
+
 
 /*main1*/
 
@@ -707,17 +711,9 @@ a{
     }
 
 }
-.rotation{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+/*main end ******************************************************************************************/
 
-}
-.rotation .rota{
-    min-width:1300px;
-    min-height:800px;
-    background: white;
-}
+/*container*/
 .container{
 }
 .container .ctitle{
@@ -743,6 +739,832 @@ a{
     clear: both;
     visibility: hidden;
 }*/
+/*container end *******************************************************************************************/
+
+/*tips*/
+.tips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tips .holdtips{
+    min-width: 1300px;
+    min-height:1310px;
+    background: url(../img/06.jpg);
+    background-size:1300px 1310px ;
+    margin-top:-100px;
+
+}
+.tips .holdtips .local{
+    position: relative;
+}
+
+.tips .holdtips .local .text1{
+    margin-top:80px;
+}
+.tips .holdtips .local .text1 p:nth-child(1){
+    font-family: "Expo Light SSi Light";
+    font-size: 16px;
+    text-align: center;
+    color: #928eb3;
+}
+
+.tips .holdtips .local .text1 p:nth-child(2){
+    color: white;
+    text-align: center;
+    font-family: "Expo Light SSi Light";
+    font-size: 40px;
+}
+.tips .holdtips .local .text2{
+    margin-top:560px;
+}
+.tips .holdtips .local .text2 p:nth-child(1){
+    font-family: "Expo Light SSi Light";
+    font-size: 16px;
+    text-align: center;
+    color: #928eb3;
+}
+
+.tips .holdtips .local .text2 p:nth-child(2){
+    color: white;
+    text-align: center;
+    font-family: "Expo Light SSi Light";
+    font-size: 40px;
+}
+.tips .holdtips .local .content{
+    position: absolute;
+    display: flex;
+    margin-left: 722px;
+    margin-top: 258px;
+
+}
+.tips .holdtips .local .content .triangle{
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid #f7f6f8;
+    border-bottom: 5px solid transparent;
+    top:20px;
+    margin-top:22px;
+}
+.tips .holdtips .local .content .num{
+    min-width:66px;
+    min-height:56px;
+    background: #f7f6f8;
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color:#23c0da;
+}
+.tips .holdtips .local .content .details{
+    max-width:150px;
+    padding:8px;
+    min-height:56px;
+    background: white;
+    border-radius: 0 4px 4px 0;
+    font-size: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:#a7a6b7;
+}
+.tips .holdtips .local .content .details span{
+    color:#403445;
+    font-weight: bold;
+}
+.tips .holdtips .biography{
+    max-width:1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:60px;
+    flex-wrap: wrap;
+}
+.tips .holdtips .biography .holdbio{
+    margin-right:20px;
+    position: relative;
+}
+.tips .holdtips .biography .holdbio .btext{
+    max-width:300px;
+    min-height:100px;
+    background: white;
+    border-radius: 5px;
+    color:#a7a6b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding:28px;
+    line-height: 20px;
+}
+.tips .holdtips .biography .holdbio .triangle{
+    width: 0;
+    height: 0;
+    border-top: 12px solid #f7f6f8;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    top:20px;
+    margin-left:20px;
+}
+.tips .holdtips .biography .holdbio .people{
+    display: flex;
+    margin-top:15px;
+}
+.tips .holdtips .biography .holdbio .people .imgs1{
+    margin-left: 10px;
+    margin-top:5px;
+    min-width:50px;
+    min-height:50px;
+    border-radius: 10px;
+    background: url(../img/p1.png) no-repeat;
+}
+.tips .holdtips .biography .holdbio .people .imgs2{
+    margin-left: 10px;
+    margin-top:5px;
+    min-width:50px;
+    min-height:50px;
+    border-radius: 10px;
+    background: url(../img/p2.png) no-repeat;
+}
+.tips .holdtips .biography .holdbio .people .imgs3{
+    margin-left: 10px;
+    margin-top:5px;
+    min-width:50px;
+    min-height:50px;
+    border-radius: 10px;
+    background: url(../img/p3.png) no-repeat;
+}
+.tips .holdtips .biography .holdbio .people p{
+    color:white;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:8px;
+
+}
+.tips .holdtips .biography .holdbio .people p span{
+    color:#6d6a8d;
+}
+.tips .holdtips .biography .line3{
+    border-top:1px dashed #34314f;height: 1px;overflow:hidden;
+    width:1300px;
+    margin-top:50px;
+}
+.tips .holdtips .biography button {
+    margin-top: 40px;
+    min-width: 180px;
+    min-height: 40px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    background: #23c1db;
+    border: none;
+    color: white;
+    align: center;
+}
+@media screen and (max-width:1024px){
+    .tips .holdtips{
+        min-width: 1024px;
+        min-height:1032px;
+        background-size:1024px 1032px ;
+        margin-top:-100px;
+    }
+
+    .tips .holdtips .local .text1{
+        margin-top:60px;
+    }
+    .tips .holdtips .local .text1 p:nth-child(1){
+        font-size: 16px;
+    }
+    .tips .holdtips .local .text1 p:nth-child(2){
+        font-size: 40px;
+    }
+    .tips .holdtips .local .text2{
+        margin-top:400px;
+    }
+    .tips .holdtips .local .text2 p:nth-child(1){
+        font-size: 16px;
+    }
+
+    .tips .holdtips .local .text2 p:nth-child(2){
+        font-size: 40px;
+    }
+    .tips .holdtips .local .content{
+        margin-left: 570px;
+        margin-top: 186px;
+
+    }
+    .tips .holdtips .local .content .triangle{
+        border-top: 5px solid transparent;
+        border-right: 10px solid #f7f6f8;
+        border-bottom: 5px solid transparent;
+        top:20px;
+        margin-top:22px;
+    }
+    .tips .holdtips .local .content .num{
+        min-width:66px;
+        min-height:56px;
+        border-radius: 4px 0 0 4px;
+        font-size: 22px;
+    }
+    .tips .holdtips .local .content .details{
+        max-width:150px;
+        padding:8px;
+        min-height:56px;
+        border-radius: 0 4px 4px 0;
+        font-size: 8px;
+    }
+    .tips .holdtips .biography{
+        max-width:1024px;
+        margin-top:30px;
+    }
+    .tips .holdtips .biography .holdbio{
+        margin-right:16px;
+    }
+    .tips .holdtips .biography .holdbio .btext{
+        max-width:280px;
+        min-height:80px;
+        border-radius: 5px;
+        font-size: 12px;
+        padding:20px;
+        line-height: 20px;
+    }
+    .tips .holdtips .biography .holdbio .triangle{
+        border-top: 12px solid #f7f6f8;
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
+        top:20px;
+        margin-left:20px;
+    }
+    .tips .holdtips .biography .holdbio .people{
+        margin-top:10px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs1{
+        margin-left: 10px;
+        margin-top:5px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs2{
+        margin-left: 10px;
+        margin-top:5px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs3{
+        margin-left: 10px;
+        margin-top:5px;
+    }
+    .tips .holdtips .biography .holdbio .people p{
+        font-size: 12px;
+        margin-left:20px;
+        margin-top:8px;
+
+    }
+    .tips .holdtips .biography .line3{
+        border-top:1px dashed #34314f;height: 1px;overflow:hidden;
+        width:1300px;
+        margin-top:20px;
+    }
+    .tips .holdtips .biography button {
+        margin-top: 40px;
+        min-width: 180px;
+        min-height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .tips .holdtips{
+        min-width: 768px;
+        min-height:774px;
+        background-size:768px 774px ;
+        margin-top:-100px;
+    }
+
+    .tips .holdtips .local .text1{
+        margin-top:40px;
+    }
+    .tips .holdtips .local .text1 p:nth-child(1){
+        font-size: 12px;
+    }
+    .tips .holdtips .local .text1 p:nth-child(2){
+        font-size: 30px;
+    }
+    .tips .holdtips .local .text2{
+        margin-top:300px;
+    }
+    .tips .holdtips .local .text2 p:nth-child(1){
+        font-size: 12px;
+    }
+    .tips .holdtips .local .text2 p:nth-child(2){
+        font-size: 30px;
+    }
+    .tips .holdtips .local .content{
+        margin-left: 382px;
+        margin-top: 123px;
+
+    }
+    .tips .holdtips .local .content .triangle{
+        border-top: 5px solid transparent;
+        border-right: 10px solid #f7f6f8;
+        border-bottom: 5px solid transparent;
+        top:20px;
+        margin-top:22px;
+    }
+    .tips .holdtips .local .content .num{
+        min-width:66px;
+        min-height:56px;
+        border-radius: 4px 0 0 4px;
+        font-size: 22px;
+    }
+    .tips .holdtips .local .content .details{
+        max-width:150px;
+        padding:8px;
+        min-height:56px;
+        border-radius: 0 4px 4px 0;
+        font-size: 8px;
+    }
+    .tips .holdtips .biography{
+        max-width:768px;
+        margin-top:20px;
+    }
+    .tips .holdtips .biography .holdbio{
+        margin-right:10px;
+    }
+    .tips .holdtips .biography .holdbio .btext{
+        max-width:240px;
+        min-height:60px;
+        border-radius: 5px;
+        font-size: 12px;
+        padding:10px;
+        line-height: 15px;
+    }
+    .tips .holdtips .biography .holdbio .triangle{
+        border-top: 10px solid #f7f6f8;
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
+        top:20px;
+        margin-left:20px;
+    }
+    .tips .holdtips .biography .holdbio .people{
+        margin-top:5px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs1{
+        margin-left: 10px;
+        margin-top:5px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs2{
+        margin-left: 10px;
+        margin-top:5px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs3{
+        margin-left: 10px;
+        margin-top:5px;
+    }
+    .tips .holdtips .biography .holdbio .people p{
+        font-size: 12px;
+        margin-left:20px;
+        margin-top:8px;
+
+    }
+    .tips .holdtips .biography .line3{
+        border-top:1px dashed #34314f;height: 1px;overflow:hidden;
+        width:1300px;
+        margin-top:0px;
+    }
+    .tips .holdtips .biography button {
+        margin-top: 20px;
+        min-width: 140px;
+        min-height: 32px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:414px){
+    .tips .holdtips{
+        min-width: 414px;
+        min-height:417px;
+        background-size:414px 417px ;
+        margin-top:-100px;
+    }
+
+    .tips .holdtips .local .text1{
+        margin-top:20px;
+    }
+    .tips .holdtips .local .text1 p:nth-child(1){
+        font-size: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .local .text1 p:nth-child(2){
+        font-size: 30px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+        margin-top:-6px;
+    }
+    .tips .holdtips .local .text2{
+        margin-top:128px;
+    }
+    .tips .holdtips .local .text2 p:nth-child(1){
+        font-size: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .local .text2 p:nth-child(2){
+        font-size: 30px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+        margin-top:-10px;
+    }
+    .tips .holdtips .local .content{
+        margin-left: 162px;
+        margin-top: 38px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.60);
+
+    }
+    .tips .holdtips .local .content .triangle{
+        border-top: 5px solid transparent;
+        border-right: 10px solid #f7f6f8;
+        border-bottom: 5px solid transparent;
+        top:20px;
+        margin-top:22px;
+    }
+    .tips .holdtips .local .content .num{
+        min-width:66px;
+        min-height:56px;
+        border-radius: 4px 0 0 4px;
+        font-size: 22px;
+    }
+    .tips .holdtips .local .content .details{
+        max-width:150px;
+        padding:8px;
+        min-height:56px;
+        border-radius: 0 4px 4px 0;
+        font-size: 8px;
+    }
+    .tips .holdtips .biography{
+        max-width:414px;
+        margin-top:20px;
+    }
+    .tips .holdtips .biography .holdbio{
+        margin-right:5px;
+        margin-top:-40px;
+    }
+    .tips .holdtips .biography .holdbio .btext{
+        padding:1px;
+        max-width:133px;
+        max-height:60px;
+        border-radius: 5px;
+
+        line-height: 15px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .biography .holdbio .btext p{
+        font-size: 8px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .biography .holdbio .triangle{
+        border-top: 8px solid #f7f6f8;
+        border-right: 4px solid transparent;
+        border-left: 4px solid transparent;
+        top:50px;
+        margin-top:-16px;
+        margin-left:40px;
+    }
+    .tips .holdtips .biography .holdbio .people{
+        margin-top:-3px;
+        margin-left:-5px;
+        max-width:100px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs1{
+        margin-left: 40px;
+        margin-top:5px;
+       background-size: 20px 20px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs2{
+        margin-left: 38px;
+        margin-top:5px;
+        background-size: 20px 20px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs3{
+        margin-left: 38px;
+        margin-top:5px;
+        background-size: 20px 20px;
+    }
+    .tips .holdtips .biography .holdbio .people p{
+        font-size: 12px;
+        margin-left:-50px;
+        margin-top:-16px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+
+    }
+    .tips .holdtips .biography .line3{
+        border-top:1px dashed #34314f;height: 1px;overflow:hidden;
+        width:1300px;
+        margin-top:-38px;
+    }
+    .tips .holdtips .biography button {
+        margin-top: -20px;
+        min-width: 140px;
+        min-height: 32px;
+        font-size: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.60);
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .tips .holdtips{
+        min-width: 375px;
+        min-height:378px;
+        background-size:375px 378px ;
+        margin-top:-100px;
+    }
+
+    .tips .holdtips .local .text1{
+        margin-top:10px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.80);
+    }
+    .tips .holdtips .local .text1 p:nth-child(1){
+        font-size: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .local .text1 p:nth-child(2){
+        font-size: 30px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+        margin-top:-6px;
+    }
+    .tips .holdtips .local .text2{
+        margin-top:110px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.80);
+    }
+    .tips .holdtips .local .text2 p:nth-child(1){
+        font-size: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .local .text2 p:nth-child(2){
+        font-size: 30px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+        margin-top:-10px;
+    }
+    .tips .holdtips .local .content{
+        margin-left: 132px;
+        margin-top: 36px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+
+    }
+    .tips .holdtips .local .content .triangle{
+        border-top: 5px solid transparent;
+        border-right: 10px solid #f7f6f8;
+        border-bottom: 5px solid transparent;
+        top:20px;
+        margin-top:22px;
+    }
+    .tips .holdtips .local .content .num{
+        min-width:66px;
+        min-height:56px;
+        border-radius: 4px 0 0 4px;
+        font-size: 22px;
+    }
+    .tips .holdtips .local .content .details{
+        max-width:150px;
+        padding:8px;
+        min-height:56px;
+        border-radius: 0 4px 4px 0;
+        font-size: 8px;
+    }
+    .tips .holdtips .biography{
+        max-width:378px;
+        margin-top:20px;
+    }
+    .tips .holdtips .biography .holdbio{
+        margin-right:5px;
+        margin-top:-40px;
+    }
+    .tips .holdtips .biography .holdbio .btext{
+        padding:0px;
+        max-width:120px;
+        max-height:40px;
+        border-radius: 5px;
+        line-height: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.40);
+    }
+    .tips .holdtips .biography .holdbio .btext p{
+        font-size: 8px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .biography .holdbio .triangle{
+        border-top: 4px solid #f7f6f8;
+        border-right: 2px solid transparent;
+        border-left: 2px solid transparent;
+        top:50px;
+        margin-top:-18px;
+        margin-left:40px;
+    }
+    .tips .holdtips .biography .holdbio .people{
+        margin-top:-3px;
+        margin-left:-5px;
+        max-width:100px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs1{
+        margin-left: 40px;
+        margin-top:5px;
+        background-size: 20px 20px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs2{
+        margin-left: 38px;
+        margin-top:5px;
+        background-size: 20px 20px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs3{
+        margin-left: 38px;
+        margin-top:5px;
+        background-size: 20px 20px;
+    }
+    .tips .holdtips .biography .holdbio .people p{
+        font-size: 12px;
+        margin-left:-50px;
+        margin-top:-16px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+
+    }
+    .tips .holdtips .biography .line3{
+        border-top:1px dashed #34314f;height: 1px;overflow:hidden;
+        width:1300px;
+        margin-top:-50px;
+    }
+    .tips .holdtips .biography button {
+        margin-top: -25px;
+        min-width: 140px;
+        min-height: 32px;
+        font-size: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.60);
+    }
+}
+@media screen and (max-width:320px){
+    .tips .holdtips{
+        min-width: 320px;
+        min-height:322px;
+        background-size:320px 322px ;
+        margin-top:-100px;
+    }
+
+    .tips .holdtips .local .text1{
+        margin-top:10px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.80);
+    }
+    .tips .holdtips .local .text1 p:nth-child(1){
+        font-size: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .local .text1 p:nth-child(2){
+        font-size: 30px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+        margin-top:-6px;
+    }
+    .tips .holdtips .local .text2{
+        margin-top:80px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.60);
+    }
+    .tips .holdtips .local .text2 p:nth-child(1){
+        font-size: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .local .text2 p:nth-child(2){
+        font-size: 30px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+        margin-top:-10px;
+    }
+    .tips .holdtips .local .content{
+        margin-left: 96px;
+        margin-top: 22px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+
+    }
+    .tips .holdtips .local .content .triangle{
+        border-top: 5px solid transparent;
+        border-right: 10px solid #f7f6f8;
+        border-bottom: 5px solid transparent;
+        top:20px;
+        margin-top:22px;
+    }
+    .tips .holdtips .local .content .num{
+        min-width:66px;
+        min-height:56px;
+        border-radius: 4px 0 0 4px;
+        font-size: 22px;
+    }
+    .tips .holdtips .local .content .details{
+        max-width:150px;
+        padding:8px;
+        min-height:56px;
+        border-radius: 0 4px 4px 0;
+        font-size: 8px;
+    }
+    .tips .holdtips .biography{
+        max-width:378px;
+        margin-top:20px;
+    }
+    .tips .holdtips .biography .holdbio{
+        margin-right:5px;
+        margin-top:-40px;
+    }
+    .tips .holdtips .biography .holdbio .btext{
+        padding:0px;
+        margin-top:-10px;
+        max-width:100px;
+        max-height:20px;
+        border-radius: 5px;
+        line-height: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.40);
+    }
+    .tips .holdtips .biography .holdbio .btext p{
+        font-size: 8px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+    .tips .holdtips .biography .holdbio .triangle{
+        border-top: 4px solid #f7f6f8;
+        border-right: 2px solid transparent;
+        border-left: 2px solid transparent;
+        top:50px;
+        margin-top:-18px;
+        margin-left:40px;
+    }
+    .tips .holdtips .biography .holdbio .people{
+        margin-top:-8px;
+        margin-left:-5px;
+        max-width:100px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.80);
+
+    }
+    .tips .holdtips .biography .holdbio .people .imgs1{
+        margin-left: 40px;
+        margin-top:5px;
+        background-size: 20px 20px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs2{
+        margin-left: 38px;
+        margin-top:5px;
+        background-size: 20px 20px;
+    }
+    .tips .holdtips .biography .holdbio .people .imgs3{
+        margin-left: 38px;
+        margin-top:5px;
+        background-size: 20px 20px;
+    }
+    .tips .holdtips .biography .holdbio .people p{
+        font-size: 12px;
+        margin-left:-54px;
+        margin-top:-14px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.40);
+        line-height: 12px;
+
+    }
+    .tips .holdtips .biography .line3{
+        border-top:1px dashed #34314f;height: 1px;overflow:hidden;
+        width:1300px;
+        margin-top:-50px;
+    }
+    .tips .holdtips .biography button {
+        margin-top: -30px;
+        min-width: 140px;
+        min-height: 32px;
+        font-size: 12px;
+        -webkit-text-size-adjust:none;
+        transform:scale(0.50);
+    }
+}
+    /* tips end *******************************************************************/
+/*footer*/
 .footer{
     display: flex;
     justify-content: center;
@@ -1158,7 +1980,8 @@ a{
         font-size: 6px;
     }
 }
-
+/*footer end **************************************************************************/
+/*still*/
 .still{
     max-height:660px;
     margin-top:-100px;
@@ -1404,3 +2227,4 @@ a{
         margin-top:-40px;
     }
 }
+/* still end ****************************************************************************/
